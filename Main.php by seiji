@@ -1,0 +1,45 @@
+<?php 
+Class Seiji extends CI_Controller{
+
+
+public function __constructt(){
+
+
+parent :: __construct;
+
+
+
+$this->load->view("header");
+
+
+
+}
+
+
+
+
+
+
+
+public function home1(){
+
+
+
+$this->load->view("home/home1");
+
+
+}
+public function profile (){
+
+$this->load->view("profile/profile");
+
+}
+
+
+
+
+
+}
+
+
+?>
