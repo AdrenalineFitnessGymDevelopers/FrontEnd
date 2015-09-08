@@ -1,0 +1,50 @@
+<?php
+
+
+
+
+
+Class MainModel extends CI_Model{
+
+
+
+public function getuser(){
+
+
+
+
+
+
+
+
+
+
+
+$this->db->get("user, 10);
+
+$this->db ->insert 
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
